@@ -1,0 +1,503 @@
+/* ----------- 헤더 지옥의 시작 */
+header {
+    width: 100%;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    align-items: center;
+    gap: 10px;
+    z-index: 999999999;
+    background: #fff;
+}
+.header-liner {
+    display: flex;
+}
+nav {
+    display: flex;
+    margin-right: 128px;
+    align-items: center;
+}
+.logo a {
+    background: url('images/logo.svg') no-repeat center / cover;
+    width: 79.5px;
+    height: 27px;
+    display: block;
+    margin-right: 34px;
+}
+ul.gnb {
+    display: flex;
+}
+ul.gnb a {
+    color: #323232;
+    padding: 26px 10px;
+    display: inline-block;
+    font-weight: 500;
+}
+form#main-search {
+    width: 248px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    background: #F2F2F2;
+    margin-top: 15.5px;
+    margin-right: 128px;
+}
+.search {
+    background: none;
+    border: none;
+}
+.seach-icon {
+    background: none;
+    border: none;
+    padding: 8px 12px;
+}
+.login {
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    color: #323232;
+    margin-top: 27px;
+}
+/* ------------- 인트로루로루로루로루롤로로루루 */
+section.intro {
+    position: relative;
+    height: 600px;
+    overflow: hidden;   
+    margin-top: 74px;
+}
+video {
+    width: 100%;
+}
+.video-dim {
+    width: 100%;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    
+}
+.intro-title {
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+.intro-title h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 34px;
+    line-height: 72.8px;
+}
+.go-pro {
+    display: block;
+    background: #1aa69d;
+    width: 233px;
+    height: 47px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 47px;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* ---------- 프롤로그그그그그그그그그그그 */
+.prologue {
+    width: 100%;
+    height: 267px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background: #F6F7F9;
+}
+.prologue h3 {
+    width: 520px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39.2px;
+    color: #1C242F;
+}
+.soomgo-rank {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.soomgo-rank  li {
+    width: 218px;
+    padding: 32px 0;
+    height: 137px;
+    border-radius: 16px;
+    background: #EFF1F5;
+}
+.soomgo-rank b {
+    padding: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1C242F;
+}
+.soomgo-rank h3 {
+    padding-left: 32px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1C242F;
+    margin-top: 15px;
+}
+/* ---------- 숨고의 보법이다른 스텝~ */
+.soomgo-steps { 
+    margin-top: 180px;
+
+}
+.soomgo-steps h2 {
+    color: #1C242F;
+    font-size: 36px;
+    line-height: 50.4px;
+    font-weight: 700;
+    width: 1136px;
+    height: 100px;
+    margin: 0 auto 23px;
+}
+.step-list {
+    width: 1136px;
+    height: 1022px;
+    gap: 40px;
+    margin: 0 auto;
+
+}
+.step-list li {
+    width: 1136px;
+    height: 314px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 23px;
+}
+span.steps {
+    display: block;
+    background: #293341;
+    width: 67px;
+    height: 29px;
+    border-radius: 16px;
+    padding: 6px 11px 6px 11px;
+}
+span.steps p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+}
+.step-list h3 {
+    margin-top: 29px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39.2px;
+    color: #1C242F;
+}
+.info-box {
+    width: 337px;
+    height: 142px;
+    border-radius: 16px;
+    padding: 18px 20px;
+    background: #F6F7F9;
+    margin-top: 23px;
+}
+.info-box .info::before {
+    content: url('images/i.svg');
+    position: relative;
+    top: 5px;
+}
+.info-box .info {
+    font-size: 16px;
+    font-weight: 500;
+    color: #116CF4;
+    position: relative;
+    top: -5px;
+}
+.info-box p {
+    color: #6A7685;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+figure {
+    padding-left: 64px;
+}
+.step-list article {
+    background: #E8F1FE;
+    width: 512px;
+    height: 314px;
+    text-align: center;
+}
+/* ------------ 쉬워보이는 섹션 나~~~~~~이~~~~~~~~~~스~~~~~ */
+section.feature {
+    width: 100%;
+    height: 763px;
+    margin-top: 180px;
+}
+.feature h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50.4px;
+    color: #1C242F;
+    margin: 0 auto 39px;
+    width: 1200px;
+    height: 100px;
+}
+.feature article {
+    width: 1200px;
+    height: 624px;
+    border-radius: 16px;
+    background: #F6F7F9;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    gap: 135px;
+}
+.feature-content {
+    width: 297px;
+    height: 198px;
+}
+.pagination {
+    width: 164px;
+    height: 31px;
+    gap: 12px;
+    display: flex;
+}
+.pagination button {
+    border: none;
+}
+.page-current {
+    width: 32px;
+    height: 31px;
+    border-radius: 4px;
+    background: #465162;
+}
+.pagination .page {
+    width: 32px;
+    height: 31px;
+    border-radius: 4px;
+    background: #E0E5EB;
+}
+.pagination .umm {
+    color: #6A7685;
+    font-weight: 600;
+    font-size: 16px;
+}
+.page-current p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.feature img {
+    width: 528px;
+    height: 528px;
+}
+.feature-content .ah {
+    margin-top: 47px;
+}
+.feature-content .oh {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #6A7685;
+    position: relative;
+    top: -74px;
+}
+/* ---------------------- 리뷰뷰뷰뷰뷰뷰뷰븁뷰뷰뷰뷰뷰븁 */
+section.review {
+    width: 1920px;
+    height: 556px;
+    margin: 180px auto 0;
+}
+.review h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50.4px;
+    color: #1C242F;
+    margin: 0 auto 71px;
+    width: 1200px;
+    height: 100px;
+}
+.gosoo-list{
+    position: relative;
+    width: 1766px;
+    height: 385px;
+    margin: 71px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+.li1 {
+    background: url('images/story1.png') no-repeat center / cover;
+    width: 334px;
+    height: 385px;
+    border-radius: 16px;
+    position: relative;
+}
+.li2 {
+    background: url('images/story2.png') no-repeat center / cover;
+    width: 334px;
+    height: 385px;
+    border-radius: 16px;
+}
+.li3 {
+    background: url('images/story3.png') no-repeat center / cover;
+    width: 334px;
+    height: 385px;
+    border-radius: 16px;
+}
+.li4 {
+    background: url('images/story4.png') no-repeat center / cover;
+    width: 334px;
+    height: 385px;
+    border-radius: 16px;
+}
+.li5 {
+    background: url('images/story5.png') no-repeat center / cover;
+    width: 334px;
+    height: 385px;
+    border-radius: 16px;
+}
+.gosoo-content {
+    margin-top: 258px;
+    margin-left: 32px;
+    position: relative;
+    z-index: 999;
+}
+.gosoo-content .story {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.2px;
+    color: #ffffff;
+}
+.gosoo-content .info {
+    gap: 4px;
+    margin-top: 13px;
+}
+.gosoo-content .info span {
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+}
+.dim {
+    width: 334px;
+    height: 385px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+}
+footer {
+    margin-top: 180px;
+    width: 100%;
+    height: 236px;
+}
+.footer-inner {
+    width: 990px;
+    height: 136px;
+    justify-content: space-between;
+    margin: 0 auto;
+    display: flex;
+}
+.frame {
+    width: 280px;
+    height: 136px;
+}
+.cs-number {
+    color: #00C7AE;
+    font-weight: 500;
+    font-size: 20px;
+}
+.hour {
+    color: #737373;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    margin-top: 8px;
+}
+.download-app {
+    width: 280px;
+    height: 34px;
+    position: relative;
+    display: flex;
+    gap: 14px;
+}
+.go-appstore {
+    display: block;
+    width: 130px;
+    height: 34px;
+    border-radius: 20.5px;
+    background: #00C7AE;
+    margin-top: 34px;
+}
+.go-appstore img {
+    width: 26px;
+    height: 20px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+.go-appstore .apple {
+    font-weight: 500;
+    font-size: 12px;
+    position: absolute;
+    color: #ffffff;
+    align-items: center;
+    padding: 10px 20px 10px 46px;
+}
+.go-playstore {
+    display: block;
+    width: 136px;
+    height: 34px;
+    border-radius: 20.5px;
+    background: #00C7AE;
+    margin-top: 34px;
+}
+.go-playstore img {
+    width: 26px;
+    height: 20px;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+.go-playstore .play {
+    font-weight: 500;
+    font-size: 12px;
+    position: absolute;
+    color: #ffffff;
+    align-items: center;
+    padding: 10px 20px 10px 46px;
+}
+.sitemap {
+    width: 380px;
+    height: 125px;
+    display: flex;
+}
+.sitemap .wow {
+    width: 95px;
+    height: 100px;
+}
+.wow strong {
+    font-weight: 500;
+    font-size: 14px;
+    color: #323232;
+}
+.wow ul {
+    margin-top: 8px;
+    width: 95px;
+    height: 75px;
+}
+.sitemap a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #737373;
+}
+.wow ul li {
+    height: 25px;
+}
